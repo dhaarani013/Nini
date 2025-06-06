@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href=""></a><br>
+    <a href=""></a><br>
+    <a href=""></a>
+    <input type="text" id="name">
+    <button onclick=showName()>Click</button>
+    <h1 id="result">hi</h1>
+    
+<script>
+    console.log("hello from script")
+    function showName(){
+        const name= document.getElementById('name').value 
+        document.getElementById('result').innerText=`hello
+        ${name}`
+    }
+</script>
+</body>
+</html>

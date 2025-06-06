@@ -1,0 +1,49 @@
+body{
+    background-color: lightpink;
+}
+.logo{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.div{
+    display: flex;
+
+}
+.links{
+    gap: 10px;
+    display: flex;
+    font-size: 10px;
+    margin-top: 0px;
+    justify-content: flex-end;
+    width: 100%;
+}
+li{
+    list-style: none;
+    
+}
+h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+p1{
+    font-size: smaller;
+    color: rgb(0, 0, 0);
+}
+.one{
+    background-color: lightpink;
+}
+.signup{
+    color: white;
+    background-color: rgb(41, 80, 207);
+    border-radius: 10%;
+}
+.img1{
+    margin-top: -155px;
+    height: 150px;
+    width: 280px;
+    margin-left: 400px;
+}
